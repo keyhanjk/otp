@@ -207,6 +207,15 @@
       </desc>
     </func>
 
+    </func>
+    <func>
+      <name name="get_options" arity="0" since="OTP 18.3"/>
+      <fsummary>Get the temporary reboot command</fsummary>
+      <desc>
+          <p>Returns <c>{ok, Options}</c> where <c>Options</c> is a list of current options enabled for heart.
+              If the callback is cleared, <c>none</c> will be returned.</p>
+      </desc>
+    </func>
 
   </funcs>
 </erlref>
